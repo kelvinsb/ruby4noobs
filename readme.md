@@ -30,6 +30,7 @@
 ### Módulo Básico
 
 1. [Sintaxe](./3-modulo-basico/1-sintaxe.md)
+2. [Comentários](./3-modulo-basico/2-comentarios.md)
 
 ### Módulo Intermediário
 
