@@ -1,17 +1,21 @@
 # 2.3 Ambiente Windows
 
 1. [Chocolatey](#231-chocolatey)
+   - [Requisitos](#2311-requisitos)
+   - [Passos](#2312-passos)
 2. [RubyInstaller](#232-rubyinstaller)
 
 ## 2.3.1 [Chocolatey](https://chocolatey.org/install)
 
 Chocolatey é um gerenciador de pacotes para Windows(semelhante ao apt do Ubuntu e o brew do Mac)
 
-##### Requisitos
+### 2.3.1.1 Requisitos
 
 - Windows 7+
 - PowerShell v3+
 - .Net Framework 4+
+
+### 2.3.1.2 Passos
 
 1. Instalação do chocolatey
    1. Garanta que abriu o terminal(shell) com privilégio de administrador

@@ -4,6 +4,11 @@ Como a abordagem do curso é introdutória(básica) somente um editor de texto "
 
 Há outras opções como Sublime Text, Brackets e Atom mas não tem tantas integrações.
 
+1. [Visual Studio Code](#211-visual-studio-code)
+   1. [Ruby](#2111-ruby)
+   2. [Ruby Rubocop](#2112-ruby-rubocop)
+2. [RubyMine](#212-rubymine)
+
 ---
 
 <img src="https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png" alt="VSCode" width="120">
@@ -14,7 +19,7 @@ Há outras opções como Sublime Text, Brackets e Atom mas não tem tantas integ
 
 Os plugins(extensões) são apenas para facilitar a vida no desenvolvimento, agilizando e focando no código.
 
-### Ruby
+### 2.1.1.1 Ruby
 
 [Link da extensão](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)
 
@@ -28,7 +33,7 @@ Os plugins(extensões) são apenas para facilitar a vida no desenvolvimento, agi
   - Informação rápida
   - Lista de membros
 
-### Ruby Rubocop
+### 2.1.1.2 Ruby Rubocop
 
 [Link da extensão](https://marketplace.visualstudio.com/items?itemName=misogi.ruby-rubocop)
 

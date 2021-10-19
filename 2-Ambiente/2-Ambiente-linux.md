@@ -3,7 +3,11 @@
 Para ambientes linux são recomendadas várias maneiras, sobretudo a utilização de gerenciadores de versões(para maior facilidade na hora de trocar de versão, muito comum em ambientes corporativos em que tem diversos serviços com versões diferentes).
 
 1. [Asdf](#221-asdf)
+   - [Porque utilizar ele?](#2211-porque-utilizar-ele)
+   - [Passo a passo](#2212-passo-a-passo)
 2. [Rvm](#222-rvm)
+   - [Ubuntu](#2221-ubuntu)
+   - [Versão do sistema diferente do Ubuntu](#2222-versão-do-sistema-diferente-do-ubuntu)
 
 ---
 
@@ -11,12 +15,12 @@ Para ambientes linux são recomendadas várias maneiras, sobretudo a utilizaçã
 
 É o gerenciador que mais recomendo, pois com ele é possível gerenciar versões de várias linguagens(como PHP, NodeJs, Golang, etc).
 
-### Porque utilizar ele
+### 2.2.1.1 Porque utilizar ele?
 
 - Após instalar as versões, pode se criar um arquivo em cada projeto com a versão da linguagem e ele automaticamente já reconhece.
 - Mesmo gerenciador para múltiplas linguagens.
 
-### Passo a passo
+### 2.2.1.2 Passo a passo
 
 Todos os comandos são inseridos no terminal(geralmente CTRL + T ou SUPER(comumente chamado de tecla Windows) + T)
 
