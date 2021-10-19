@@ -35,7 +35,7 @@ Objetos são instâncias da classe e são criados utilizando o sufido `.new`.
 
 ### 4.4.3 Criando métodos
 
-Em classes as funções são chamadas de métodos(a sintaxe é a mesma), basta adicionar um bloco de código com inicio de def seguido com o nome do método e os parâmetros dentro dos parentes separados por vírgula. Exemplo:
+Em classes as funções são chamadas de métodos(a sintaxe é a mesma), basta adicionar um bloco de código com inicio de `def` seguido com o nome do método e os parâmetros dentro dos parentes separados por vírgula. Exemplo:
 
 ```ruby
 def somar_valores(primeiro, segundo)
@@ -86,10 +86,10 @@ puts segundo_cliente.quantidade, segundo_cliente.nome # 2, tiago
 puts primeiro_cliente.quantidade, primeiro_cliente.nome # 2, ronaldo
 puts segundo_cliente.quantidade, segundo_cliente.nome # 2, tiago
 
-primeiro_cliente.nome = "jose"
-segundo_cliente.nome = "joao"
+primeiro_cliente.set_nome = "jose"
+segundo_cliente.set_nome = "joao"
 puts primeiro_cliente.nome, segundo_cliente.nome # jose, joao
-primeiro_cliente.quantidade = 5
+primeiro_cliente.set_quantidade = 5
 puts primeiro_cliente.quantidade, segundo_cliente.quantidade # 5, 5
 ```
 

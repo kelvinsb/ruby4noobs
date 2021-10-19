@@ -44,3 +44,5 @@ idade = 23
 puts nome + " tem " + idade.to_s + " anos" # "ronaldo tem 23 anos"
 puts "#{nome} tem #{idade} anos" # "ronaldo tem 23 anos"
 ```
+
+**Obs:** o método `.to_s` na terceira linha é utilizado para converter para string.
