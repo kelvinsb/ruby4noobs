@@ -29,6 +29,8 @@
 
 ### Módulo Básico
 
+1. [Sintaxe](./3-modulo-basico/1-sintaxe.md)
+
 ### Módulo Intermediário
 
 ### Módulo de funções
