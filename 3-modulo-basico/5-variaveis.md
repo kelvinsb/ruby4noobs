@@ -18,6 +18,8 @@ Apesar da tipagem ser dinâmica os tipos mais comuns são
 1. String(coleção de Char(caracteres))
 2. Booleanos: Verdadeiro(true) ou falso(false)
 3. Número: Valor numérico
+4. Array: lista de valores
+5. Hash: lista de chaves/valores
 
 - Núlo: utilizada como `nil`
 
@@ -29,6 +31,10 @@ Se tiver na dúvida de qual tipo é basta digitar `.class` após a variável. Ex
 123.22.class #Float
 true.class # TrueClass
 nil.class # NilClass
+[1,2,3].class # Array
+[1,2,3][1] # 2
+{"nome" => "joao", "idade" => 25}.class # Hash
+{"nome" => "joao", "idade" => 25}["nome"] # "joao"
 ```
 
 Há métodos melhores para visualizar, os acimas são mais para referência

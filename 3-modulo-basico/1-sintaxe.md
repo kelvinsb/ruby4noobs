@@ -6,7 +6,7 @@
 
 ---
 
-A sintaxe do ruby é focada em ser simples e exata, o mais próxima da língua tradicional que temos hoje em dia, considerada línguagem de alto nível(mais próxima do mundo real do que do mundo das máquinas).
+A sintaxe do ruby é focada em ser simples e exata, o mais próxima da língua tradicional que temos hoje em dia, considerada linguagem de alto nível(mais próxima do mundo real do que do mundo das máquinas).
 
 Tudo é considerado objeto, até mesmo os tipos primitivos(string, número e booleano) e funções/métodos.
 
