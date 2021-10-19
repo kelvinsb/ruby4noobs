@@ -33,6 +33,7 @@
 2. [Comentários](./3-modulo-basico/2-comentarios.md)
 3. [Funções de saída](./3-modulo-basico/3-saida.md)
 4. [Classes e objetos](./3-modulo-basico/4-classes-objetos.md)
+5. [Variáveis](./3-modulo-basico/5-variaveis.md)
 
 ### Módulo Intermediário
 
