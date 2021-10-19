@@ -25,6 +25,7 @@
 2. [Ambiente Linux](./2-Ambiente/2-Ambiente-linux.md)
 3. [Ambiente Windows](./2-Ambiente/3-Ambiente-Windows.md)
 4. [Ambiente Mac](./2-Ambiente/4-Ambiente-Mac.md)
+5. [Dicas gerais](./2-Ambiente/5-Dicas-gerais.md)
 
 ### Módulo Básico
 

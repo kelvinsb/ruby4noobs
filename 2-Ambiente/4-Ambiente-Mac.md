@@ -1,9 +1,9 @@
-### 2.4 Ambiente Mac
+# 2.4 Ambiente Mac
 
 1. [Homebrew](#241-homebrew)
 2. [Asdf](#242-asdf)
 
-#### 2.4.1 Homebrew
+## 2.4.1 Homebrew
 
 O mac nativamente tem um gerenciador de pacotes chamado Homebrew, com que é facilmente instalado apenas utilizando o comando
 
@@ -19,7 +19,7 @@ ruby -v
 
 ---
 
-#### 2.4.2 [Asdf](https://github.com/asdf-vm/asdf)
+## 2.4.2 [Asdf](https://github.com/asdf-vm/asdf)
 
 É o gerenciador que mais recomendo, pois com ele é possível gerenciar versões de várias linguagens(como PHP, NodeJs, Golang, etc).
 
