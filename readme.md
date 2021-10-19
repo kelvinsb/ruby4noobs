@@ -21,10 +21,10 @@
 
 ### Configuração de Ambiente
 
-1. [Editor e plugins](/2-Ambiente/2-Editores-e-plugins.md)
-2. [Ambiente Linux](/2-Ambiente/2-Ambiente-linux.md)
-3. [Ambiente Windows](/2-Ambiente/3-Ambiente-Windows.md)
-4. [Ambiente Mac](/2-Ambiente/4-Ambiente-Mac.md)
+1. [Editor e plugins](./2-Ambiente/1-Editores-e-plugins.md)
+2. [Ambiente Linux](./2-Ambiente/2-Ambiente-linux.md)
+3. [Ambiente Windows](./2-Ambiente/3-Ambiente-Windows.md)
+4. [Ambiente Mac](./2-Ambiente/4-Ambiente-Mac.md)
 
 ### Módulo Básico
 
