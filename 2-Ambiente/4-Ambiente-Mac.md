@@ -3,12 +3,32 @@
 1. [Homebrew](#241-homebrew)
 2. [Asdf](#242-asdf)
 
-## 2.4.1 Homebrew
+## 2.4.1 [Homebrew](https://brew.sh/)
 
-O mac nativamente tem um gerenciador de pacotes chamado Homebrew, com que é facilmente instalado apenas utilizando o comando
+O mac tem um gerenciador de pacotes chamado Homebrew, com que é facilmente instalado apenas utilizando o comando
+
+1. Instalar Homebrew
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+2. Checar se foi instalado (resultado esperado `Homebrew 2.7.5`)
+
+```bash
+brew -v
+```
+
+3. Instalar ruby
 
 ```bash
 brew install ruby
+```
+
+- Para instalar versão específica é só adicionar o sufixo `@VERSAO`. Para procurar as versões disponíveis:
+
+```bash
+brew search ruby
 ```
 
 Verifique se foi instalado corretamente com(deve retornar a versão instalada)

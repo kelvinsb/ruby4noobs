@@ -18,10 +18,14 @@ Não é necessário adicionar ponto e vírgula no final de cada trecho como em o
 
 Em alguns blocos de código como funções/métodos e trechos isolados podem começar com begin e terminar com end, ou mesmo omitir o end(no caso de métodos/funções).
 
+[Exemplo](exemplos/1_bloco_codigo.rb)
+
 ```ruby
+# 3-modulo-basico/exemplos/1_bloco_codigo.rb
 begin
-    a = 1
-    b = 3
-    c = a + b
+  a = 1
+  b = 3
+  c = a + b
+  puts c
 end
 ```

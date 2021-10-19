@@ -16,11 +16,14 @@ nome = "Ronaldo" #Declarou o nome
 
 Funciona apenas quando executado em arquivo
 
+[Exemplo](exemplos/2_comentarios.rb)
+
 ```ruby
+# ruby 3-modulo-basico/exemplos/2_comentarios.rb
 =begin
-    Comentário
-    Novamente outro
-    Adicionados sem problema
+   Comentário
+   Novamente outro
+   Adicionados sem problema
 =end
 quantidade = 2
 ```

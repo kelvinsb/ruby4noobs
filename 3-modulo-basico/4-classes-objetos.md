@@ -43,11 +43,18 @@ def somar_valores(primeiro, segundo)
 end
 ```
 
-Caso queira adicionar valores automaticamente quando criar o objeto basta criar um método chamado `ìnitialize` com os parâmetros dele.
+- Por regra a última linha é o retorno da função, caso queira um retorno explícito basta usar a keyword `return` como as outras linguagens.
+- Caso queira adicionar valores automaticamente quando criar o objeto basta criar um método chamado `ìnitialize` com os parâmetros dele.
+- Há duas maneiras de chamar o método:
+  1.  Maneira clássica: `somar_valores(5,6) # 11`
+  2.  Maneira do ruby: `somar_valores 5,6 # 11`
 
 ### 4.4.4 Exemplo:
 
+[Exemplo](exemplos/4_classes.rb)
+
 ```ruby
+# ruby 3-modulo-basico/exemplos/4_classes.rb
 class Cliente
   @@quantidade = 0 # variável de classe
   @nome = ''  # variável de instância
@@ -141,3 +148,47 @@ Com as facilidades do Ruby os seguintes trechos são equivalentes para formas re
   attr_accessor   :nome
   [...]
 ```
+
+[Exemplo alternativo](exemplos/4_short_class.rb)
+
+```ruby
+# ruby 3-modulo-basico/exemplos/4_short_class.rb
+class Cliente
+  attr_accessor :nome # variável de instância
+
+  @@quantidade = 0
+
+  def initialize(nome)
+    @nome = nome
+    @@quantidade += 1
+  end
+
+  def quantidade
+    @@quantidade
+  end
+
+  def set_quantidade=(quantidade) # equivalente a attr_writer :quantidade
+    @@quantidade = quantidade
+  end
+end
+primeiro_cliente = Cliente.new 'ronaldo'
+puts primeiro_cliente.quantidade, primeiro_cliente.nome # 1, ronaldo
+puts '---'
+segundo_cliente = Cliente.new 'tiago'
+puts segundo_cliente.quantidade, segundo_cliente.nome # 2, tiago
+puts '---'
+
+puts primeiro_cliente.quantidade, primeiro_cliente.nome # 2, ronaldo
+puts '---'
+puts segundo_cliente.quantidade, segundo_cliente.nome # 2, tiago
+puts '---'
+
+primeiro_cliente.nome = 'jose'
+segundo_cliente.nome = 'joao'
+puts primeiro_cliente.nome, segundo_cliente.nome # jose, joao
+puts '---'
+primeiro_cliente.set_quantidade = 5
+puts primeiro_cliente.quantidade, segundo_cliente.quantidade # 5, 5
+```
+
+**_Obs:_** Há maneiras mais elegantes/legíveis, mas para fim de aprendizado foi apresentado desta maneira.

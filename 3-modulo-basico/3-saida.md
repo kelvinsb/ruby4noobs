@@ -12,6 +12,7 @@ No desenvolvimento da aplicação há momentos em que é preciso depurar, ou at�
 É geralmente utilizado quando precisa adicionar automaticamente uma quebra de linha. Sempre retorna `nil`.
 
 ```ruby
+# ruby 3-modulo-basico/exemplos/3_puts.rb
 puts 123
 puts 456
 ```
@@ -28,6 +29,7 @@ Saída
 Quando não é necessário a quebra de linha. Retorna o objeto passado.
 
 ```ruby
+# ruby 3-modulo-basico/exemplos/3_print.rb
 print 123
 print 456
 ```

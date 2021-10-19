@@ -25,7 +25,10 @@ Apesar da tipagem ser dinâmica os tipos mais comuns são
 
 Se tiver na dúvida de qual tipo é basta digitar `.class` após a variável. Exemplo:
 
+[Exemplo](exemplos/5_tipos.rb)
+
 ```ruby
+# ruby 3-modulo-basico/exemplos/5_tipos.rb
 "teste".class # String
 123.class # Integer
 123.22.class #Float
@@ -44,7 +47,10 @@ Há métodos melhores para visualizar, os acimas são mais para referência
   1.  **Concatenação:** `nome + " tem " + idade.to_s + " anos"`
   2.  **Interpolação:** `"#{nome} tem #{idade} anos"`
 
+[Exemplo](exemplos/5_nome.rb)
+
 ```ruby
+# ruby 3-modulo-basico/exemplos/5_nome.rb
 nome = "Ronaldo"
 idade = 23
 puts nome + " tem " + idade.to_s + " anos" # "ronaldo tem 23 anos"
